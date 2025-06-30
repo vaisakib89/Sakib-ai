@@ -1,7 +1,7 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "files": [
     "scripts/commands/audl.js"
   ],
-  "reinstallDependencies": false
+  "reinstallDependencies": true
 }
