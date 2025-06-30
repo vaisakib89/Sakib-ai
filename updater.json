@@ -1,7 +1,7 @@
 {
   "version": "1.0.2",
   "files": [
-    "scripts/commands/autodl.js.js"
+    "scripts/commands/audl.js"
   ],
   "reinstallDependencies": false
 }
