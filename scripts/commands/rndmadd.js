@@ -29,16 +29,18 @@ module.exports.run = async ({ api, event, args }) => {
 
   try {
     const inputUrl = isVideoReply ? replyAttachment.url : args[0];
-    const title = (
-      isVideoReply ? args.join(" ") : args.slice(1).join(" ")
-    ) || "📁 𝙐𝙥𝙡𝙤𝙖𝙙𝙚𝙙 𝙑𝙞𝙙𝙚𝙤";
+    const title = (isVideoReply ? args.join(" ") : args.slice(1).join(" ")) || "📁 𝙐𝙥𝙡𝙤𝙖𝙙𝙚𝙙 𝙑𝙞𝙙𝙚𝙤";
 
-    // Upload media using the new API ok
-    const res = await axios.get(`http://158.69.174.203:20107/upload?videoUrl=${encodeURIComponent(inputUrl)}`);
+    const base = await axios.get(`https://raw.githubusercontent.com/MR-IMRAN-60/ImranBypass/main/imran.json`);
+    const driveApi = base.data.drive;
+
+    const res = await axios.get(`${driveApi}/upload?videoUrl=${encodeURIComponent(inputUrl)}`);
+    if (!res.data.fileId || !res.data.webContentLink) {
+      throw new Error("Invalid response from upload API");
+    }
+
     const { fileId, webContentLink } = res.data;
 
-
-    // Add to album
     const albumRes = await axios.get(`http://de3.spaceify.eu:25335/album?title=${encodeURIComponent(title)}&url=${encodeURIComponent(webContentLink)}`);
 
     const successMessage =
