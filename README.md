@@ -15,7 +15,7 @@ node main/catalogs/IMRANA.js
 ## CREDITS
 
 original file : [BotPack](https://replit.com/@YanMaglinte/BotPack?v=1) by ```YanMaglinte```</br>
-modified : [ryuko and imran](https://replit.com/@ryukodev/ryuko?v=1) by ```IMRAN AHMED```</br>
+modified : [ryuko and imran](https://github.com/MR-IMRAN-60/IMRAN-BOTV4) by ```IMRAN AND RYUKO```</br>
 fca : [ws3-fca](https://www.npmjs.com/package/ws3-fca) by ```Kenneth Aceberos```
 
 ## UPDATES
