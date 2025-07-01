@@ -123,7 +123,7 @@ module.exports.run = async ({ api, event, args }) => {
 
 📁 RESOURCES
 
-GitHub Repository: IMRAN-BOTV4
+GitHub Repository: [IMRAN-BOTV4](https://github.com/MR-IMRAN-60/IMRAN-BOTV4)
 
 
 > 💬 Developed with care by Imran Ahmed & Ryuko
