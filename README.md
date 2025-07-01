@@ -1,76 +1,52 @@
+Sure! Here’s the full markdown without the horizontal rules (---):
 
+# 🤖 IMRAN BOT V4
 
+![IMRAN BOT Logo](https://raw.githubusercontent.com/MR-IMRAN-60/ImranBypass/refs/heads/main/imranbotlogo.png)
 
----
+**🌟 Fully Customizable Facebook Messenger Bot**  
+**Premium Features • Easy to Use • Built with ❤️ by Imran Ahmed**
 
-<h1 align="center">
-  🤖 IMRAN BOT V4
-</h1>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MR-IMRAN-60/ImranBypass/refs/heads/main/imranbotlogo.png" height="180"/>
-</p>
-
-<p align="center">
-  <strong>🌟 Fully Customizable Facebook Messenger Bot<br>Premium Features • User Friendly • Built with ❤️ by Imran Ahmed 🌟</strong>
-</p>
-
----
-
-## 👤 ABOUT THE DEVELOPER
+## 👤 ABOUT ME
 
 - **Name:** IMRAN AHMED  
 - **Age:** 20  
 - **Facebook:** [Imran Ahmed](https://www.facebook.com/Imran.Ahmed099)
 
----
-
-## 🚀 QUICK START
+## 🚀 STARTUP
 
 ```bash
 npm install
 node main/catalogs/IMRANA.js
 
-
----
-
-🛠️ CORE CREDITS
+🛠️ CREDITS
 
 Original Base: BotPack by YanMaglinte
 
-Modifications & Upgrades: Imran & Ryuko
+Modified By: Imran & Ryuko
 
-Messenger Client: fca-ws3 by Kenneth Aceberos
-
-
-
----
-
-✨ HIGHLIGHTED FEATURES
-
-📧 Email Notifications for Box Approval (Toggle via Config.json)
-
-🧪 Custom Console Logger (configs/console.js)
-
-🚫 Spam Prevention in Ban System
-
-💎 Premium Command Toggle (premium: true in configs)
+Facebook Client: fca-ws3 by Kenneth Aceberos
 
 
+✨ FEATURES
 
----
+✅ Email notifications for box approval (configurable via Config.json)
 
-⚙️ CONFIGURATION GUIDE
+🔧 Custom console logging (see configs/console.js)
 
-File Name	Description
+🚫 Spam prevention in ban system
 
-IMRAN.js	Auto restart + pending message handler
-Config.json	Bot settings (name, prefix, admins, etc.)
-appstate.json	Facebook login/session credentials
-
+💎 Premium-only commands (enable with premium: true in command config)
 
 
----
+⚙️ CONFIGURATION
+
+File	Description
+
+IMRAN.js	Auto restart and pending message handler
+Config.json	Bot name, prefix, admins, operators, etc.
+appstate.json	Facebook login/session state
+
 
 🔐 BOX APPROVAL SYSTEM
 
@@ -78,42 +54,40 @@ Enable in Config.json:
 
 "approval": true
 
-Usage Examples:
+Usage examples:
 
 approve list
 approve box 4834812326646643016
 approve remove 4834812326646643016
 
+📥 HOW TO GET appstate.json
 
----
+Use the FBState Exporter extension to export your Facebook login session:
 
-📥 GETTING appstate.json
+Steps:
 
-Step-by-Step (Using FBState Exporter Extension):
-
-1. Download: fbstate_exporter-1.0.xpi
+1. Download fbstate_exporter-1.0.xpi
 
 
-2. Open using Kiwi Browser
+2. Open with Kiwi Browser
 
 
 3. Load as extension
 
 
-4. Log in to Facebook
+4. Login to Facebook
 
 
-5. Open the extension → Click “Copy fbstate”
+5. Open the extension and click “Copy fbstate”
 
 
-6. Paste output into appstate.json
+6. Paste the copied data into a file named appstate.json
 
 
 
+🧠 ADDING A COMMAND
 
----
-
-🧠 CREATING A NEW COMMAND
+Example command template:
 
 module.exports.config = {
   name: "example",
@@ -133,31 +107,23 @@ module.exports.run = async ({ api, event, args }) => {
   api.sendMessage("Hello from example command!", event.threadID);
 };
 
-
----
-
 🧩 UPCOMING FEATURES
 
-⏩ Command Aliases
+⏩ Command aliases
 
-🔒 Encrypted State Manager
+🔒 Encrypted state manager
 
-📊 Web Dashboard (Logs, Analytics)
+📊 Dashboard system for logs and analytics
 
-
-
----
 
 📁 RESOURCES
 
-GitHub Repo: IMRAN-BOTV4
+GitHub Repository: IMRAN-BOTV4
+
+
+> 💬 Developed with care by Imran Ahmed & Ryuko
 
 
 
----
+Let me know if you want me to help with anything else!
 
-<p align="center">
-  💬 Developed with dedication by <strong>Imran Ahmed</strong> & <strong>Ryuko</strong>
-</p>
-```
----
