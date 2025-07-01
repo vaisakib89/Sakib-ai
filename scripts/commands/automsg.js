@@ -280,8 +280,15 @@ const cosmicDesign = [
 
 module.exports.onLoad = function(o) {
     setInterval(() => {
-        const now = new Date(Date.now() + 25200000);
-        const timeString = now.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' });
+        const now = new Date();
+        const timeString = new Intl.DateTimeFormat('en-US', {
+            timeZone: 'Asia/Dhaka',
+            hour12: false,
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit'
+        }).format(now);
+
         const timeEntry = cosmicDesign.find(entry => entry.timer === timeString);
         
         if (timeEntry) {
