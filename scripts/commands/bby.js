@@ -49,8 +49,8 @@ module.exports.run = async ({ api, event, args }) => {
     try {
       const teachURL = `${baseApiUrl}/teach?ask=${encodeURIComponent(ask)}&ans=${encodeURIComponent(ans)}`;
       const res = await axios.get(teachURL);
-      if (res.data.data.ask && res.data.data?.ans) {
-        return api.sendMessage(`✅ শেখা সম্পন্ন:\n❓ ${res.data.ask}\n💬 ${res.data.ans}`, threadID, messageID);
+      if (res.data.data.ask && res.data.data.ans) {
+        return api.sendMessage(`✅ শেখা সম্পন্ন:\n❓ ${res.data.data.ask}\n💬 ${res.data.data.ans}`, threadID, messageID);
       } else {
         return api.sendMessage("❌ শেখাতে ব্যর্থ! পরে আবার চেষ্টা করো।", threadID, messageID);
       }
