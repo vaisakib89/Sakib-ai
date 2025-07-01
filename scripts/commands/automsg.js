@@ -1,14 +1,18 @@
+const moment = require("moment-timezone");
+
 module.exports.config = {
-    name: "automsg",
+    name: "autotime",
     version: "1.0.0",
     permission: 0,
-    credits: "Nayan",
+    credits: "IMRAN",
     description: "Automatic stylish time announcements",
     prefix: true,
     category: "user",
     usages: "",
     cooldowns: 5,
-    dependencies: {}
+    dependencies: {
+        "moment-timezone": ""
+    }
 };
 
 const cosmicDesign = [
@@ -280,16 +284,9 @@ const cosmicDesign = [
 
 module.exports.onLoad = function(o) {
     setInterval(() => {
-        const now = new Date();
-        const timeString = new Intl.DateTimeFormat('en-US', {
-            timeZone: 'Asia/Dhaka',
-            hour12: false,
-            hour: '2-digit',
-            minute: '2-digit',
-            second: '2-digit'
-        }).format(now);
-
-        const timeEntry = cosmicDesign.find(entry => entry.timer === timeString);
+        const currentTime = moment().tz("Asia/Dhaka").format("h:mmA"); // eg. "2:00AM"
+        
+        const timeEntry = cosmicDesign.find(entry => entry.timer === currentTime);
         
         if (timeEntry) {
             const randomMessage = timeEntry.message[Math.floor(Math.random() * timeEntry.message.length)];
@@ -302,4 +299,4 @@ module.exports.onLoad = function(o) {
     }, 1000);
 };
 
-module.exports.run = function() {};
+module.exports.run = function () {};
