@@ -1,5 +1,3 @@
-Sure! Here’s the full markdown without the horizontal rules (---):
-
 # 🤖 IMRAN BOT V4
 
 ![IMRAN BOT Logo](https://raw.githubusercontent.com/MR-IMRAN-60/ImranBypass/refs/heads/main/imranbotlogo.png)
@@ -27,8 +25,8 @@ Modified By: Imran & Ryuko
 
 Facebook Client: fca-ws3 by Kenneth Aceberos
 
-
-✨ FEATURES
+```
+## ✨ FEATURES
 
 ✅ Email notifications for box approval (configurable via Config.json)
 
@@ -39,7 +37,7 @@ Facebook Client: fca-ws3 by Kenneth Aceberos
 💎 Premium-only commands (enable with premium: true in command config)
 
 
-⚙️ CONFIGURATION
+## ⚙️ CONFIGURATION
 
 File	Description
 
@@ -48,7 +46,7 @@ Config.json	Bot name, prefix, admins, operators, etc.
 appstate.json	Facebook login/session state
 
 
-🔐 BOX APPROVAL SYSTEM
+## 🔐 BOX APPROVAL SYSTEM
 
 Enable in Config.json:
 
@@ -60,7 +58,7 @@ approve list
 approve box 4834812326646643016
 approve remove 4834812326646643016
 
-📥 HOW TO GET appstate.json
+## 📥 HOW TO GET appstate.json
 
 Use the FBState Exporter extension to export your Facebook login session:
 
@@ -85,10 +83,10 @@ Steps:
 
 
 
-🧠 ADDING A COMMAND
+## 🧠 ADDING A COMMAND
 
 Example command template:
-
+```
 module.exports.config = {
   name: "example",
   version: "1.0.0",
@@ -106,8 +104,8 @@ module.exports.config = {
 module.exports.run = async ({ api, event, args }) => {
   api.sendMessage("Hello from example command!", event.threadID);
 };
-
-🧩 UPCOMING FEATURES
+```
+## 🧩 UPCOMING FEATURES
 
 ⏩ Command aliases
 
