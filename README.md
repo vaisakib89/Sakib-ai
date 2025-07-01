@@ -23,7 +23,7 @@ node main/catalogs/IMRANA.js
 
 Original Base: BotPack by YanMaglinte
 
-Modified By: Imran & Ryuko
+Modified By: ```Imran & Ryuko```</br>
 
 Facebook Client: fca-ws3 by Kenneth Aceberos
 
