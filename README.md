@@ -18,7 +18,6 @@
 - 🎂 Age: 20  
 - 🔗 Facebook: [Imran Ahmed](https://www.facebook.com/Imran.Ahmed099)
 
----
 
 ## 🚀 STARTUP
 
@@ -26,8 +25,6 @@
 npm install
 node main/catalogs/IMRANA.js
 
-
----
 
 🙌 CREDITS
 
@@ -38,8 +35,6 @@ node main/catalogs/IMRANA.js
 🔌 Facebook Client: ws3-fca by Kenneth Aceberos
 
 
-
----
 
 ✨ UPDATES
 
@@ -55,7 +50,6 @@ node main/catalogs/IMRANA.js
 premium: true
 
 
----
 
 ⚙️ CONFIGURATION
 
@@ -67,7 +61,6 @@ appstate.json	Facebook login/session state
 
 
 
----
 
 🔐 BOX APPROVAL SYSTEM
 
@@ -82,7 +75,6 @@ approve box 4834812326646643016
 approve remove 4834812326646643016
 
 
----
 
 📥 HOW TO GET appstate.json
 
@@ -109,8 +101,7 @@ approve remove 4834812326646643016
 
 
 
-
----
+```
 
 🧠 ADDING A COMMAND
 
@@ -132,8 +123,7 @@ module.exports.run = async ({ api, event, args }) => {
   api.sendMessage("Hello from example command!", event.threadID);
 };
 
-
----
+```
 
 🧩 UPCOMING FEATURES
 
@@ -145,7 +135,6 @@ module.exports.run = async ({ api, event, args }) => {
 
 
 
----
 
 > 💬 Developed with care by Imran Ahmed & Ryuko
 📁 GitHub: IMRAN-BOTV4
