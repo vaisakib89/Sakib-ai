@@ -42,9 +42,9 @@ Facebook Client: fca-ws3 by Kenneth Aceberos
 
 File	Description
 
-IMRAN.js	Auto restart and pending message handler
-Config.json	Bot name, prefix, admins, operators, etc.
-appstate.json	Facebook login/session state
+```IMRAN.js	Auto restart and pending message handler```</br>
+```Config.json	Bot name, prefix, admins, operators, etc.```</br>
+```appstate.json	Facebook login/session state```</br>
 
 
 ## 🔐 BOX APPROVAL SYSTEM
