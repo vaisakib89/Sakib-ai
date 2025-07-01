@@ -16,8 +16,8 @@
 ```bash
 npm install
 node main/catalogs/IMRANA.js
-
-🛠️ CREDITS
+```
+## 🛠️ CREDITS
 
 Original Base: BotPack by YanMaglinte
 
@@ -25,7 +25,6 @@ Modified By: Imran & Ryuko
 
 Facebook Client: fca-ws3 by Kenneth Aceberos
 
-```
 ## ✨ FEATURES
 
 ✅ Email notifications for box approval (configurable via Config.json)
