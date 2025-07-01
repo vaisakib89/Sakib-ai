@@ -15,6 +15,8 @@
 
 ```bash
 npm install
+```
+```txt
 node main/catalogs/IMRANA.js
 ```
 ## 🛠️ CREDITS
