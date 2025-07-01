@@ -7,7 +7,7 @@
 
 ## 👤 ABOUT ME
 
-- **Name:** IMRAN AHMED  
+- Name: ```IMRAN AHMED```br  
 - **Age:** 20  
 - **Facebook:** [Imran Ahmed](https://www.facebook.com/Imran.Ahmed099)
 
