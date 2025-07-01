@@ -51,13 +51,19 @@ appstate.json	Facebook login/session state
 
 Enable in Config.json:
 
+```txt
 "approval": true
-
-Usage examples:
-
+```
+Usage examples: </br>
+```txt
 approve list
+```
+```txt
 approve box 4834812326646643016
+```
+```txt
 approve remove 4834812326646643016
+```
 
 ## 📥 HOW TO GET appstate.json
 
