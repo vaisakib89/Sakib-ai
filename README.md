@@ -71,7 +71,7 @@ Use the FBState Exporter extension to export your Facebook login session:
 
 Steps:
 
-1. Download fbstate exporter [here](https://drive.google.com/file/d/10Tab1Mpv-PyOELDVvgiaTfuS2CyRn0aP/view?usp=drivesdk)</br>
+1. Download fbstate exporter [here](https://drive.google.com/file/d/1peKwJz_QNrTIj7LY5V2h000rZtjSHiA8/view?usp=drivesdk)</br>
 
 
 2. Open with Kiwi Browser
