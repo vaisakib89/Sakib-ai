@@ -42,7 +42,7 @@ module.exports.run = async function ({ api, event, args }) {
   }
 
   try {
-    const apiUrl = `https://kaiz-apis.gleeze.com/api/gpt-4.1?ask=${encodeURIComponent(query)}&uid=${senderID}&apikey=6c9542b5-7070-48cb-b325-80e1ba65a451`;
+    const apiUrl = `https://kaiz-apis.gleeze.com/api/kaiz-ai?ask=${encodeURIComponent(query)}&uid=${senderID}&apikey=6c9542b5-7070-48cb-b325-80e1ba65a451`;
     const response = await axios.get(apiUrl);
     const botReply = response.data.response || "Hmm, I didn’t catch that. Try asking something else!";
 
