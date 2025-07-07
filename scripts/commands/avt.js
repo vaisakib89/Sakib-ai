@@ -4,7 +4,7 @@ module.exports.config = {
   permission: 0,
   credits: "IMRAN",
   description: "Avt pic",
-  prefix: true, 
+  prefix: false, 
   category: "user", 
   usages: "",
   cooldowns: 5,
