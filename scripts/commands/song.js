@@ -41,8 +41,9 @@ module.exports.run = async ({ api, event, args }) => {
     const title = songData.title;
 
     await api.editMessage(`🎶 Found: ${title}\n⬇️ Downloading...`, searchingMessage.messageID);
-
-    const downloadApiUrl = `https://kaiz-apis.gleeze.com/api/ytdown-mp3?url=${encodeURIComponent(ytUrl)}&apikey=6c9542b5-7070-48cb-b325-80e1ba65a451`;
+      
+     
+    const downloadApiUrl = `https://kaiz-apis.gleeze.com/api/ytmp3?url=${encodeURIComponent(ytUrl)}&apikey=6c9542b5-7070-48cb-b325-80e1ba65a451`;
     const downloadResponse = await axios.get(downloadApiUrl);
     const downloadData = downloadResponse.data;
 
