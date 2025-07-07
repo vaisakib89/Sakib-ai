@@ -24,12 +24,10 @@ module.exports.run = async ({ api, event, args }) => {
     return api.sendMessage('❌ Please provide a song name.\n📌 Example: song Let Me Love You', event.threadID, event.messageID);
   }
 
-  const searchApiUrl = `https://betadash-search-download.vercel.app/yt?search=${encodeURIComponent(query)}`;
-
   try {
     const searchingMessage = await api.sendMessage(`🔍 Searching for "${query}"...\n⏳ Please wait...`, event.threadID);
 
-    const searchResponse = await axios.get(searchApiUrl);
+    const searchResponse = await axios.get(`https://betadash-search-download.vercel.app/yt?search=${encodeURIComponent(query)}`);
     const songData = searchResponse.data[0];
 
     if (!songData || !songData.url) {
@@ -41,28 +39,28 @@ module.exports.run = async ({ api, event, args }) => {
     const title = songData.title;
 
     await api.editMessage(`🎶 Found: ${title}\n⬇️ Downloading...`, searchingMessage.messageID);
-      
-     
-    const downloadApiUrl = `https://kaiz-apis.gleeze.com/api/ytmp3?url=${encodeURIComponent(ytUrl)}&apikey=6c9542b5-7070-48cb-b325-80e1ba65a451`;
-    const downloadResponse = await axios.get(downloadApiUrl);
-    const downloadData = downloadResponse.data;
 
-    if (!downloadData || !downloadData.download_url) {
+    const apiConfig = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/main/api.json');
+    const apiBase = apiConfig.data.down_stream;
+
+    const downloadResponse = await axios.get(`${apiBase}/nayan/yt?url=${encodeURIComponent(ytUrl)}`);
+    const audioUrl = downloadResponse.data.data.audio_down;
+
+    if (!audioUrl) {
       return api.sendMessage('⚠️ Failed to fetch download link. Try again.', event.threadID, event.messageID);
     }
 
-    const downloadUrl = downloadData.download_url;
-    const fileName = `${downloadData.title}.mp3`;
+    const fileName = `${title}.mp3`;
     const filePath = path.join(__dirname, 'cache', fileName);
 
-    const songStream = await axios({
-      method: 'GET',
-      url: downloadUrl,
+    const audioStream = await axios({
+      method: 'get',
+      url: audioUrl,
       responseType: 'stream'
     });
 
     const writer = fs.createWriteStream(filePath);
-    songStream.data.pipe(writer);
+    audioStream.data.pipe(writer);
 
     writer.on('finish', async () => {
       await api.sendMessage({
