@@ -18,7 +18,7 @@ module.exports.run = async ({ api, event, args }) => {
     return api.sendMessage(
       `✨🎨 𝑨𝒓𝒕 𝑮𝒂𝒍𝒍𝒆𝒓𝒚 🎨✨\n\n` +
       `Hey there! Let's create something magical. 💖\nChoose your desired art style from this beautiful collection:\n\n` +
-      `🌸 coffee\n🎨 artist\n🐐 goats\n💔 mistake\n🖌️ snap\n🛣️ pavement\n🛍️ sale\n🗼 pisa\n🐱 cat\n🕯️ summoning\n🌷 tulips\n🚇 underground\n🦇 vampire\n📸 vintage\n🖼️ wall\n\n` +
+      `🌸 coffee\n🎨 artist\n🐐 goats\n💔 mistake\n🖌️ snap\n🛣️ pavement\n🛍️ sale\n🗼 pisa\n🐱 cat\n🕯️ summoning\n🌷 tulips\n🚇 underground\n🦇 vampire\n📸 vintage\n🖼️ wall\n💖 jigsaw\n\n` +
       `💌 Just type: art [style] [@mention]\n👉 Example: art coffee\n👉 Example: art vampire @imran\n\nI'm waiting to paint your world... 🎨`,
       event.threadID,
       event.messageID
@@ -28,7 +28,7 @@ module.exports.run = async ({ api, event, args }) => {
   const styles = [
     "coffee", "artist", "goats", "mistake", "snap", "pavement", "sale",
     "pisa", "cat", "summoning", "tulips", "underground", "vampire",
-    "vintage", "wall"
+    "vintage", "wall", "jigsaw"
   ];
 
   const style = args[0].toLowerCase();
