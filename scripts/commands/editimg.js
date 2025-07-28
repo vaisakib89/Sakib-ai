@@ -49,7 +49,7 @@ module.exports.run = async ({ api, event, args }) => {
     );
   }
 
-  const apiUrl = `https://masterapi.fun/api/editimg?prompt=${encodeURIComponent(
+  const apiUrl = `{global.imranapi.imran}/api/editimg?prompt=${encodeURIComponent(
     prompt
   )}&image=${encodeURIComponent(linkanh)}`;
 
