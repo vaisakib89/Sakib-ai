@@ -3,10 +3,10 @@ const gTTS = require("gtts");
 
 module.exports.config = {
   name: "voiceemoji",
-  version: "1.5.0",
+  version: "2.0.0",
   permission: 0,
   credits: "Sakib Vai",
-  description: "Send live voice for 100+ emojis (once per emoji)",
+  description: "Send live voice for 100+ emojis using gTTS",
   prefix: false,
   category: "fun",
 };
@@ -154,9 +154,13 @@ module.exports.run = async function({ api, event }) {
       const text = emojiMap[emoji];
       const filePath = __dirname + "/voice.mp3";
       const gtts = new gTTS(text, "bn");
+
       await new Promise(resolve => {
         gtts.save(filePath, function(err) {
-          if (err) return api.sendMessage("ভয়েস বানাতে সমস্যা হয়েছে!", event.threadID);
+          if (err) {
+            api.sendMessage("ভয়েস বানাতে সমস্যা হয়েছে!", event.threadID);
+            return resolve();
+          }
           api.sendMessage({ attachment: fs.createReadStream(filePath) }, event.threadID, () => {
             fs.unlinkSync(filePath);
             resolve();
