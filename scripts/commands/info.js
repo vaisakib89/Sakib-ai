@@ -22,10 +22,10 @@ module.exports.config = {
 module.exports.run = async ({ api, event, args }) => {
   const adminInfo = {
     name: "SAKIB",
-    city: "Dhaka, Bangladesh",
+    city: "Sherpur, Mymensingh",
     work: "Web Developer & Bot Creator",
-    whatsapp: "wa.me/01932556310",
-    facebook: "https://www.facebook.com/s.a.k.i.b.tsu.863539"
+    whatsapp: "wa.me/+8801932556310",
+    facebook: "https://facebook.com/s.a.k.i.b.tsu.863539"
   };
 
   const botVersion = global.config.version || "2.0.0";
@@ -33,7 +33,7 @@ module.exports.run = async ({ api, event, args }) => {
   const uptime = formatUptime(uptimeSeconds);
 
   const info = `
-✦ 𝗦𝗔𝗞𝗜𝗕 𝗕𝗢𝗧 𝗔𝗗𝗠𝗜𝗡 𝗜𝗡𝗙𝗢 ✦
+✦ 𝗬𝗨𝗠𝗜𝗞𝗔 𝗕𝗢𝗧 𝗔𝗗𝗠𝗜𝗡 𝗜𝗡𝗙𝗢 ✦
 
 ❖ 𝗡𝗮𝗺𝗲: 『 ${adminInfo.name} 』
 ❖ 𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: 『 ${adminInfo.city} 』
@@ -52,7 +52,7 @@ module.exports.run = async ({ api, event, args }) => {
 `.trim();
 
   const imagePath = __dirname + "/cache/admin.png";
-  const imageURL = `https://graph.facebook.com/s.a.k.i.b.tsu.863539/picture?height=720&width=720`;
+  const imageURL = `https://graph.facebook.com/100075122837809/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`;
 
   request(encodeURI(imageURL))
     .pipe(fs.createWriteStream(imagePath))
