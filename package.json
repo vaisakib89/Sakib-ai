@@ -1,13 +1,17 @@
 {
-  "name": "IMRAN",
+  "name": "SAKIB",
   "version": "1.0.5",
   "description": "simple facebook messenger bot",
-  "main": "main/catalogs/IMRANA.js",
+  "main": "main/catalogs/SAKIBA.js",
   "scripts": {
-    "start": "node main/catalogs/IMRANA.js"
+    "start": "node main/catalogs/SAKIBA.js"
   },
-  "author": "IMRAN",
+  "author": "SAKIB",
   "license": "ISC",
+  "engines": {
+    "node": ">=20.18.1",
+    "npm": ">=10.0.0"
+  },
   "dependencies": {
     "abir-photo360-apis": "^1.0.2",
     "aes-js": "^3.1.2",
