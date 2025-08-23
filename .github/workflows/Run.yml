@@ -17,10 +17,14 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '20.18.1'   # <-- Updated version
+          check-latest: true        # Always ensure latest minor updates
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --force    # force install if engine mismatch happens
+
+      - name: Audit and fix vulnerabilities
+        run: npm audit fix --force  # auto fix most security issues
 
       - name: SAKIB-BOT
         run: npm start
