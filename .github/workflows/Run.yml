@@ -1,4 +1,4 @@
-name: SAKIB-BOT
+name: IMRAN-BOT
 
 on:
   push:
@@ -17,11 +17,10 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20.18.1'
-          check-latest: true
+          node-version: '18'
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: npm install
 
-      - name: Start SAKIB-BOT
+      - name: IMRAN-BOT
         run: npm start
