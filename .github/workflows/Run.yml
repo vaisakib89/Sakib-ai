@@ -21,10 +21,7 @@ jobs:
           check-latest: true
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps   # legacy-peer-deps ব্যবহার করে version conflict এড়ানো হবে
-
-      - name: Audit and fix vulnerabilities
-        run: npm audit fix --force
+        run: npm install --legacy-peer-deps
 
       - name: Start SAKIB-BOT
         run: npm start
