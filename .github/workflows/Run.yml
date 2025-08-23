@@ -18,13 +18,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20.18.1'
-          cache: 'npm'                # <-- Cache dependencies for faster build
+          check-latest: true
 
       - name: Install dependencies
-        run: npm install             # <-- Remove --force unless necessary
+        run: npm install --legacy-peer-deps   # legacy-peer-deps ব্যবহার করে version conflict এড়ানো হবে
 
-      - name: Audit vulnerabilities
-        run: npm audit               # <-- Just check vulnerabilities, don't force fix
+      - name: Audit and fix vulnerabilities
+        run: npm audit fix --force
 
-      - name: Run SAKIB-BOT
+      - name: Start SAKIB-BOT
         run: npm start
