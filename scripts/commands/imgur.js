@@ -4,7 +4,7 @@ module.exports.config = {
   name: "imgur",
   version: "1.0.0",
   permission: 0,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "📤 Upload images/videos to Imgur with elegant previews",
   prefix: true,
   category: "media",

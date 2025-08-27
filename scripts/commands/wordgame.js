@@ -5,7 +5,7 @@ module.exports.config = {
   name: "wordgame", // command name
   version: "2.1.0", // version
   permission: 0, // public
-  credits: "IMRAN", // author
+  credits: "SAKIB", // author
   description: "একটি শব্দ অনুমান খেলা (Hint সহ)", // details
   prefix: false, // no prefix required
   premium: false,

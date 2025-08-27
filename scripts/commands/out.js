@@ -2,7 +2,7 @@ module.exports.config = {
   name: "out", // Command name
   version: "1.0.0", // Command version
   permission: 2, // Permission level (2: bot admins)
-  credits: "IMRAN", // Original creator
+  credits: "SAKIB", // Original creator
   description: "Remove bot from group", // Command description
   prefix: false, // Use prefix (true/false)
   premium: false, // Premium-only command (true/false)

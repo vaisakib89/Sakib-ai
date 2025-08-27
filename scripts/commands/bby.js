@@ -5,7 +5,7 @@ module.exports.config = {
   name: "bby",
   version: "3.1.0",
   permission: 0,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "Cute AI bot with Simsimi API + online teach feature",
   prefix: false,
   premium: false,

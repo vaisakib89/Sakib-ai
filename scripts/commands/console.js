@@ -2,7 +2,7 @@ module.exports.config = {
     name: "console",
     version: "1.0.0",
     permission: 3,
-    credits: "IMRAN",
+    credits: "SAKIB",
     prefix: true,
     premium: false,
     description: "",

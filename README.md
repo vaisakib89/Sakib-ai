@@ -1,13 +1,13 @@
-# 🤖 IMRAN BOT V4
+# 🤖 SAKIB BOT V4
 
-![IMRAN BOT Logo](https://raw.githubusercontent.com/MR-IMRAN-60/ImranBypass/refs/heads/main/imranbotlogo.png)
+![SAKIB BOT Logo](https://raw.githubusercontent.com/MR-SAKIB-60/ImranBypass/refs/heads/main/imranbotlogo.png)
 
 **🌟 Fully Customizable Facebook Messenger Bot**  
 **Premium Features • Easy to Use • Built with ❤️ by Imran Ahmed**
 
 ## 👤 ABOUT ME
 
-- Name: ```IMRAN AHMED```</br> 
+- Name: ```SAKIB AHMED```</br> 
 - Age: ```20```</br>  
 - Facebook: [Imran Ahmed](https://www.facebook.com/Imran.Ahmed099).</br>
 
@@ -17,7 +17,7 @@
 npm install
 ```
 ```txt
-node main/catalogs/IMRANA.js
+node main/catalogs/SAKIBA.js
 ```
 ## 🛠️ CREDITS
 
@@ -42,7 +42,7 @@ Facebook Client: fca-ws3 by Kenneth Aceberos
 
 File	Description
 
-IMRAN.js	```Auto restart and pending message handler```</br>
+SAKIB.js	```Auto restart and pending message handler```</br>
 Config.json	```Bot name, prefix, admins, operators, etc.```</br>
 appstate.json ```Facebook login/session state```</br>
 
@@ -98,7 +98,7 @@ module.exports.config = {
   name: "example",
   version: "1.0.0",
   permission: 0,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "An example command",
   prefix: true,
   category: "utility",
@@ -123,7 +123,7 @@ module.exports.run = async ({ api, event, args }) => {
 
 📁 RESOURCES
 
-GitHub Repository: [IMRAN-BOTV4](https://github.com/MR-IMRAN-60/IMRAN-BOTV4)
+GitHub Repository: [SAKIB-BOTV4](https://github.com/MR-SAKIB-60/SAKIB-BOTV4)
 
 
 > 💬 Developed with care by Imran Ahmed & Ryuko

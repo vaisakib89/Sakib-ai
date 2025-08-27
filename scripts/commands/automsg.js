@@ -4,7 +4,7 @@ module.exports.config = {
   name: "autotime",
   version: "1.0.0",
   permission: 0,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "Automatic time-based messages",
   prefix: true,
   category: "user",

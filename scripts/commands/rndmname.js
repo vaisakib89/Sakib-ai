@@ -6,7 +6,7 @@ module.exports.config = {
   name: "rndm",
   version: "1.0.0",
   permission: 0,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "Fetch a random video by name",
   prefix: false,
   premium: false,

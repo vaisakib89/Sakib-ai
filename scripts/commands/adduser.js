@@ -2,7 +2,7 @@ module.exports.config = {
   name: "adduser",
   version: "1.0.0",
   permission: 0,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "Add users to group using profile link or UID",
   prefix: false,
   premium: false,

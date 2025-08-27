@@ -8,7 +8,7 @@ module.exports.config = {
   name: "ephoto",
   version: "1.2.0",
   permission: 0,
-  credits: "IMRAN (Styled by ChatGPT)",
+  credits: "SAKIB (Styled by ChatGPT)",
   description: "Generate stylish images using Ephoto360 templates",
   prefix: false,
   premium: false,
@@ -28,7 +28,7 @@ module.exports.run = async ({ api, event, args }) => {
   }
 
   const templateKey = args[0].toLowerCase();
-  const name = args.slice(1).join(" ") || "IMRAN";
+  const name = args.slice(1).join(" ") || "SAKIB";
   const cacheDir = path.join(__dirname, "cache");
   const imagePath = path.join(cacheDir, "ephoto_output.png");
 

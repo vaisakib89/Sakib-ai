@@ -4,7 +4,7 @@ module.exports.config = {
   name: "ai",
   version: "1.0.0",
   permission: 0,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "Chat with a GPT-4.1 AI bot (with reply support)",
   prefix: false,
   category: "chatgpt",

@@ -34,7 +34,7 @@ module.exports.run = async function({ api, event, Threads }) {
   
   // 🌟 BOT JOIN
   if (event.logMessageData.addedParticipants.some(p => p.userFbId == botID)) {
-    const BOT_GIF = "https://raw.githubusercontent.com/MR-IMRAN-60/JSON-STORE/main/imbot.gif";
+    const BOT_GIF = "https://raw.githubusercontent.com/MR-SAKIB-60/JSON-STORE/main/imbot.gif";
     try {
       await api.changeNickname(` ${botName} `, threadID, botID);
       
@@ -131,7 +131,7 @@ Active members = 💌 bonus stickers!
       // fetch the gif/image
       let attachment = null;
       try {
-        const apiu = "https://raw.githubusercontent.com/MR-IMRAN-60/ImranBypass/refs/heads/main/imran.json";
+        const apiu = "https://raw.githubusercontent.com/MR-SAKIB-60/ImranBypass/refs/heads/main/imran.json";
   const config = await axios.get(apiu);
   const res = config.data.wlc;
   const welcomeApiUrl = `${res}/api/welcome?uid=${uidParam}&user_name=${userParam}&count=${memCount}&theme=dark`;

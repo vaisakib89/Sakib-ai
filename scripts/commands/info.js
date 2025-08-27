@@ -6,7 +6,7 @@ module.exports.config = {
   name: "info",
   version: "1.0.0",
   permission: 0,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "Show stylish admin information",
   prefix: true,
   category: "INFO",
@@ -48,7 +48,7 @@ module.exports.run = async ({ api, event, args }) => {
 ❖ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: 『 ${botVersion} 』
 ❖ 𝗨𝗽𝘁𝗶𝗺𝗲: 『 ${uptime} 』
 ❖ 𝗖𝗼𝗱𝗲𝗿: 『 ${adminInfo.name} 』
-❖ 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸: 『 IMRAN-API 』
+❖ 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸: 『 SAKIB-API 』
 `.trim();
 
   const imagePath = __dirname + "/cache/admin.png";

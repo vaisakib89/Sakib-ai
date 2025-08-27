@@ -9,7 +9,7 @@ module.exports.config = {
   name: "uptime",
   version: "1.0.0",
   permission: 0,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "Shows bot uptime and status info (image based)",
   prefix: true,
   category: "info",
@@ -69,7 +69,7 @@ module.exports.run = async ({ api, event }) => {
           ping: `${ping}ms`,
           time: currentTime,
           date: currentDate,
-          owner: "IMRAN",
+          owner: "SAKIB",
         },
         timeout: 8000,
       });
