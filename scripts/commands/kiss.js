@@ -2,7 +2,7 @@ module.exports.config = {
   name: "kiss",
   version: "1.0.0",
   permission: 0,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "Send a cute kiss using canvas API (stream version)",
   prefix: false,
   category: "fun",

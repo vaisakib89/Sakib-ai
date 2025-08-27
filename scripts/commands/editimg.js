@@ -6,7 +6,7 @@ module.exports.config = {
   name: "editimg",
   version: "1.0.0",
   permission: 0,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "AI image editing using prompt + image or attachment",
   prefix: true,
   category: "image",

@@ -46,10 +46,10 @@ module.exports.run = async function({ api, event, Users, Threads }) {
   
   try {
     
-    const apiu = "https://raw.githubusercontent.com/MR-IMRAN-60/ImranBypass/refs/heads/main/imran.json";
+    const apiu = "https://raw.githubusercontent.com/MR-SAKIB-60/ImranBypass/refs/heads/main/imran.json";
   const config = await axios.get(apiu);
   const res = config.data.wlc;
-    const byeApiUrl = `${res}/api/bye?uid=${encodeURIComponent(userID)}&user_name=${encodeURIComponent(userName)}&owner_name=${encodeURIComponent("IMRAN AHMED")}&theme=dark`;
+    const byeApiUrl = `${res}/api/bye?uid=${encodeURIComponent(userID)}&user_name=${encodeURIComponent(userName)}&owner_name=${encodeURIComponent("SAKIB AHMED")}&theme=dark`;
     
     const response = await axios.get(byeApiUrl, {
       responseType: "stream",

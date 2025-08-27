@@ -4,7 +4,7 @@ module.exports.config = {
   name: "love",
   version: "1.0.4",
   permission: 0,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "Create a love image using love1 to love11 APIs (streamed)",
   prefix: true,
   category: "image",

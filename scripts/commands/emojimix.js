@@ -2,7 +2,7 @@ module.exports.config = {
   name: "emojimix",
   version: "1.0.2",
   permission: 0,
-  credits: "IMRAN", // Original author
+  credits: "SAKIB", // Original author
   description: "Combine two emojis into one",
   prefix: true,
   category: "image",

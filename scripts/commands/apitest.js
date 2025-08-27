@@ -30,7 +30,7 @@ module.exports.config = {
   name: "apitest", // ✅ command name
   version: "1.0.0",
   permission: 0, // ✅ public use
-  credits: "IMRAN", // ✅ your credit
+  credits: "SAKIB", // ✅ your credit
   description: "Test any API endpoint with GET or POST.",
   prefix: false,
   category: "example",

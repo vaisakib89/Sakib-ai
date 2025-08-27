@@ -7,7 +7,7 @@ module.exports.config = {
   name: "adminnoti",
   version: "2.0.0",
   permission: 2,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "Send a broadcast message to all groups and allow reply flow",
   prefix: true,
   premium: false,

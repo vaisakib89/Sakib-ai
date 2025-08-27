@@ -38,8 +38,8 @@ handleCommand.commandNotFound=❌ Command not found in the system. Please try ag
 handleCommandEvent.moduleError=💥 Something went wrong while using command %1. Error: %2
 
 # includes/handle/handleCreateDatabase.js
-handleCreateDatabase.newThread=✨ IMRAN - New group detected: %1\n
-handleCreateDatabase.newUser=✨ IMRAN - New user detected: %1\n
+handleCreateDatabase.newThread=✨ SAKIB - New group detected: %1\n
+handleCreateDatabase.newUser=✨ SAKIB - New user detected: %1\n
 
 # includes/handle/handleEvent.js
 handleEvent.executeEvent=\n🕒 Time: %1\n⚙️ Event: %2\n👥 Group ID: %3\n⏱️ Processing Time: %4ms

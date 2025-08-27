@@ -6,7 +6,7 @@ module.exports.config = {
   name: "speech", // Command name
   version: "1.0.0",
   permission: 0,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "Convert text to speech using nayan-api-servers",
   prefix: false,
   premium: false,

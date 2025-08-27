@@ -6,7 +6,7 @@ module.exports.config = {
   name: "friend",
   version: "1.0.0",
   permission: 0,
-  credits: "IMRAN", // Updated
+  credits: "SAKIB", // Updated
   description: "Create a friends photo frame with 3 people",
   prefix: false,
   premium: false,

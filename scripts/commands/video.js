@@ -6,7 +6,7 @@ module.exports.config = {
   name: "video",
   version: "2.0.0",
   permission: 0,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "Get YouTube video by name",
   prefix: false,
   category: "media",

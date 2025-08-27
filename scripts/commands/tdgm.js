@@ -4,7 +4,7 @@ module.exports.config = {
   name: "td", // command name
   version: "1.0.0", // command version
   permission: 0, // public use
-  credits: "IMRAN", // author
+  credits: "SAKIB", // author
   description: "Get unique truth/dare challenges with user mentions", // command description
   prefix: false, // no prefix required
   category: "Fun", // category shown in help

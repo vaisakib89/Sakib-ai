@@ -2,7 +2,7 @@ module.exports.config = {
   name: "art",
   version: "1.0.0",
   permission: 0,
-  credits: "IMRAN",
+  credits: "SAKIB",
   description: "Generate romantic and aesthetic art using canvas API",
   prefix: false,
   category: "art",
