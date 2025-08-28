@@ -2,9 +2,9 @@
   "name": "SAKIB",
   "version": "1.0.5",
   "description": "simple facebook messenger bot",
-  "main": "main/catalogs/SAKIBA.js",
+  "main": "main/catalogs/SAKIBC.js",
   "scripts": {
-    "start": "node main/catalogs/SAKIBA.js"
+    "start": "node main/catalogs/SAKIBC.js"
   },
   "author": "SAKIB",
   "license": "ISC",
