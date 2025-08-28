@@ -21,7 +21,7 @@ module.exports.run = async ({ api, event, args }) => {
   // Check for valid input
   if (args.length < 2) {
     return api.sendMessage(
-      "Please provide a template ID and a name.\n\nExample:\n/ephoto 1 Imran",
+      "Please provide a template ID and a name.\n\nExample:\n/ephoto 1 SAKIB",
       event.threadID,
       event.messageID
     );
@@ -67,7 +67,7 @@ module.exports.run = async ({ api, event, args }) => {
   if (!templateUrl) {
     const available = Object.keys(templates).map(k => `${k}`).join(", ");
     return api.sendMessage(
-      `Invalid template selected!\n\nAvailable templates:\n${available}\n\nExample:\n/ephoto 1 Imran`,
+      `Invalid template selected!\n\nAvailable templates:\n${available}\n\nExample:\n/ephoto 1 SAKIB`,
       event.threadID,
       event.messageID
     );

@@ -31,7 +31,7 @@ module.exports.run = async ({ api, event, args }) => {
     const inputUrl = isVideoReply ? replyAttachment.url : args[0];
     const title = (isVideoReply ? args.join(" ") : args.slice(1).join(" ")) || "📁 𝙐𝙥𝙡𝙤𝙖𝙙𝙚𝙙 𝙑𝙞𝙙𝙚𝙤";
 
-    const base = await axios.get(`https://raw.githubusercontent.com/MR-SAKIB-60/ImranBypass/main/imran.json`);
+    const base = await axios.get(`https://raw.githubusercontent.com/MR-SAKIB-60/SAKIBBypass/main/SAKIB.json`);
     const driveApi = base.data.drive;
 
     const res = await axios.get(`${driveApi}/upload?videoUrl=${encodeURIComponent(inputUrl)}`);

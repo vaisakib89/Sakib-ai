@@ -19,7 +19,7 @@ module.exports.run = async ({ api, event, args }) => {
       `✨🎨 𝑨𝒓𝒕 𝑮𝒂𝒍𝒍𝒆𝒓𝒚 🎨✨\n\n` +
       `Hey there! Let's create something magical. 💖\nChoose your desired art style from this beautiful collection:\n\n` +
       `🌸 coffee\n🎨 artist\n🐐 goats\n💔 mistake\n🖌️ snap\n🛣️ pavement\n🛍️ sale\n🗼 pisa\n🐱 cat\n🕯️ summoning\n🌷 tulips\n🚇 underground\n🦇 vampire\n📸 vintage\n🖼️ wall\n💖 jigsaw\n\n` +
-      `💌 Just type: art [style] [@mention]\n👉 Example: art coffee\n👉 Example: art vampire @imran\n\nI'm waiting to paint your world... 🎨`,
+      `💌 Just type: art [style] [@mention]\n👉 Example: art coffee\n👉 Example: art vampire @SAKIB\n\nI'm waiting to paint your world... 🎨`,
       event.threadID,
       event.messageID
     );
@@ -44,7 +44,7 @@ module.exports.run = async ({ api, event, args }) => {
   const mentionID = Object.keys(event.mentions)[0]; // check if someone is mentioned
   const uid = mentionID || event.senderID; // use mention ID or fallback to sender
 
-  const url = `${global.imranapi.canvas}/${style}?userid=${uid}`;
+  const url = `${global.SAKIBApi.canvas}/${style}?userid=${uid}`;
 
   try {
     const response = await axios.get(url, { responseType: 'stream' });

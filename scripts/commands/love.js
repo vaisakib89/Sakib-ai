@@ -38,7 +38,7 @@ module.exports.run = async ({ api, event, args }) => {
     const version = validVersions.includes(args[0]) ? args[0] : (Math.floor(Math.random() * 11) + 1).toString();
 
     // API URL
-    const url = `${global.imranapi.api1}/love${version}?uid1=${uid1}&uid2=${uid2}`;
+    const url = `${global.SAKIBApi.api1}/love${version}?uid1=${uid1}&uid2=${uid2}`;
 
     // Stream image directly
     const res = await axios.get(url, { responseType: "stream" });

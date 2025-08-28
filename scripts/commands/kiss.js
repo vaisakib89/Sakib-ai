@@ -25,7 +25,7 @@ module.exports.run = async ({ api, event }) => {
   const mentionID = Object.keys(mentions)[0];
   const mentionName = mentions[mentionID];
 
-  const imgURL = `${global.imranapi.canvas}/kiss?userid1=${mentionID}&userid2=${senderID}`;
+  const imgURL = `${global.SAKIBApi.canvas}/kiss?userid1=${mentionID}&userid2=${senderID}`;
 
   // Fixed cute message
   const message = `💋 Sending a sweet and cute kiss to you, ${mentionName} ~ ❤️`;

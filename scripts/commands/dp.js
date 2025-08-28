@@ -4,7 +4,7 @@ module.exports.config = {
   name: "dp",
   version: "1.0.6",
   permission: 0,
-  credits: "Imran",
+  credits: "SAKIB",
   description: "Get stylish profile picture (dp1 to dp5)",
   prefix: true,
   category: "image",
@@ -28,7 +28,7 @@ module.exports.run = async ({ api, event, args }) => {
   const targetName = isMentioned ? mentions[targetID].replace("@", "") : "you";
 
   // API URL
-  const imageUrl = `${global.imranapi.api1}/${dpVersion}?uid=${targetID}`;
+  const imageUrl = `${global.SAKIBApi.api1}/${dpVersion}?uid=${targetID}`;
 
   // Unique styled message per version
   const styleMessage = {

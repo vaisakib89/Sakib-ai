@@ -49,7 +49,7 @@ module.exports.run = async ({ api, event, args }) => {
     );
   }
 
-  const apiUrl = `{global.imranapi.imran}/api/editimg?prompt=${encodeURIComponent(
+  const apiUrl = `{global.SAKIBApi.SAKIB}/api/editimg?prompt=${encodeURIComponent(
     prompt
   )}&image=${encodeURIComponent(linkanh)}`;
 

@@ -2,7 +2,7 @@ module.exports.config = {
   name: "hug2",
   version: "1.0.0",
   permission: 0,
-  credits: "imran",
+  credits: "SAKIB",
   description: "Send hug using canvas API (stream version)",
   prefix: false,
   category: "fun",
@@ -25,7 +25,7 @@ module.exports.run = async ({ api, event }) => {
   const mentionID = Object.keys(mentions)[0];
   const mentionName = mentions[mentionID];
 
-  const imgURL = `${global.imranapi.canvas}/hug2?one=${senderID}&two=${mentionID}`;
+  const imgURL = `${global.SAKIBApi.canvas}/hug2?one=${senderID}&two=${mentionID}`;
 
   try {
     const response = await axios({

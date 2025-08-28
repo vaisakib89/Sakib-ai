@@ -22,19 +22,19 @@ module.exports.handleEvent = async function ({ api, args, Users, event, Threads,
   let nameBox;
   let userorgroup;
   let threadid;
-  let Imran;
-  let Imran1;
+  let SAKIB;
+  let SAKIB1;
 
   try {
     const isGroup = await global.data.threadInfo.get(event.threadID).threadName || "name does not exist";
     nameBox = `${isGroup}\n`;
     threadid = `${threadID}\n`;
-    Imran = chalk.hex("#00FFFF").bold('➤ Group Name : ');
-    Imran1 = chalk.hex("#00FFFF").bold('➤ Group ID : ');
+    SAKIB = chalk.hex("#00FFFF").bold('➤ Group Name : ');
+    SAKIB1 = chalk.hex("#00FFFF").bold('➤ Group ID : ');
     userorgroup = chalk.hex("#FF00FF").bold("♝ Group Chat Message ♝");
   } catch (error) {
-    Imran = "";
-    Imran1 = "";
+    SAKIB = "";
+    SAKIB1 = "";
     threadid = "";
     nameBox = "";
     userorgroup = chalk.hex("#FF00FF").bold("♝ Private Chat Message ♝");
@@ -47,8 +47,8 @@ module.exports.handleEvent = async function ({ api, args, Users, event, Threads,
     '\n' + chalk.hex("#00FF00")(`⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯`) + 
     chalk.hex("#FFA500")(`\n             ${userorgroup}\n`) +
     chalk.hex("#00FF00")(`⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n`) +
-    `\n${Imran}${chalk.hex("#ADD8E6")(nameBox)}` +
-    `${Imran1}${chalk.hex("#ADD8E6")(threadid)}` +
+    `\n${SAKIB}${chalk.hex("#ADD8E6")(nameBox)}` +
+    `${SAKIB1}${chalk.hex("#ADD8E6")(threadid)}` +
     chalk.hex("#FF00FF").bold(`➤ User Name : `) + chalk.hex("#E6E6FA")(nameUser) + 
     '\n' + chalk.hex("#FF00FF").bold(`➤ User ID : `) + chalk.hex("#E6E6FA")(senderID) +
     '\n' + chalk.hex("#FF00FF").bold(`➤ Message : `) + chalk.hex("#FFFF00").italic(msg) +

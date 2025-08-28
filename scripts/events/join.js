@@ -5,7 +5,7 @@ module.exports.config = {
   name: "join",
   eventType: ["log:subscribe"],
   version: "3.0.0",
-  credits: "Imran",
+  credits: "SAKIB",
   description: "Next-Level Gothic Anime Cute Welcome System 🌸",
   dependencies: {
     "fs-extra": ""
@@ -57,7 +57,7 @@ ${prefix}random — video
 
 🚨 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 🚨
 👤 𝓓𝓮𝓿𝓮𝓵𝓸𝓹𝓮𝓻: 𝓘𝓶𝓻𝓪𝓷 𝓐𝓱𝓶𝓮𝓭
-📘 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: https://www.facebook.com/Imran.Ahmed099
+📘 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: https://www.facebook.com/SAKIB.Ahmed099
 💬 𝖂𝗵𝗮𝘁𝘀𝗔𝗽𝗽: wa.me/+8801689903267
 ✉️ 𝑬𝒎𝒂𝒊𝒍: massangerbot2@gmail.com
 ❏━━━━━━━━━━━━━━━━━━━━━━━━━❏
@@ -109,7 +109,7 @@ You are the ${ordinalSuffix(memCount)} member of 『 ${threadName} 』
 
 🪄 𝗤𝘂𝗶𝗰𝗸 𝗜𝗻𝗳𝗼:
 • 𝗣𝗿𝗲𝗳𝗶𝘅: ⌈ ${prefix} ⌋  
-• 𝗗𝗲𝘃: Imran Ahmed  
+• 𝗗𝗲𝘃: SAKIB Ahmed  
 • 𝗠𝗼𝗼𝗱: Community vibes only ✨
 
 💡 𝗧𝗶𝗽:  
@@ -131,7 +131,7 @@ Active members = 💌 bonus stickers!
       // fetch the gif/image
       let attachment = null;
       try {
-        const apiu = "https://raw.githubusercontent.com/MR-SAKIB-60/ImranBypass/refs/heads/main/imran.json";
+        const apiu = "https://raw.githubusercontent.com/MR-SAKIB-60/SAKIBBypass/refs/heads/main/SAKIB.json";
   const config = await axios.get(apiu);
   const res = config.data.wlc;
   const welcomeApiUrl = `${res}/api/welcome?uid=${uidParam}&user_name=${userParam}&count=${memCount}&theme=dark`;

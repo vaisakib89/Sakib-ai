@@ -1,15 +1,15 @@
 # 🤖 SAKIB BOT V4
 
-![SAKIB BOT Logo](https://raw.githubusercontent.com/MR-SAKIB-60/ImranBypass/refs/heads/main/imranbotlogo.png)
+![SAKIB BOT Logo](https://raw.githubusercontent.com/MR-SAKIB-60/SAKIBBypass/refs/heads/main/SAKIBbotlogo.png)
 
 **🌟 Fully Customizable Facebook Messenger Bot**  
-**Premium Features • Easy to Use • Built with ❤️ by Imran Ahmed**
+**Premium Features • Easy to Use • Built with ❤️ by SAKIB Ahmed**
 
 ## 👤 ABOUT ME
 
 - Name: ```SAKIB AHMED```</br> 
 - Age: ```20```</br>  
-- Facebook: [Imran Ahmed](https://www.facebook.com/Imran.Ahmed099).</br>
+- Facebook: [SAKIB Ahmed](https://www.facebook.com/SAKIB.Ahmed099).</br>
 
 ## 🚀 STARTUP
 
@@ -23,7 +23,7 @@ node main/catalogs/SAKIBA.js
 
 Original Base: BotPack by YanMaglinte
 
-Modified By: ```Imran & Ryuko```</br>
+Modified By: ```SAKIB & Ryuko```</br>
 
 Facebook Client: fca-ws3 by Kenneth Aceberos
 
@@ -126,7 +126,7 @@ module.exports.run = async ({ api, event, args }) => {
 GitHub Repository: [SAKIB-BOTV4](https://github.com/MR-SAKIB-60/SAKIB-BOTV4)
 
 
-> 💬 Developed with care by Imran Ahmed & Ryuko
+> 💬 Developed with care by SAKIB Ahmed & Ryuko
 
 
 

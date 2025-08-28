@@ -4,7 +4,7 @@ module.exports.config = {
   name: "leave",
   eventType: ["log:unsubscribe"],
   version: "1.0.0",
-  credits: "Imran",
+  credits: "SAKIB",
   description: "Notify when a member leaves or gets kicked from the group.",
 };
 
@@ -46,7 +46,7 @@ module.exports.run = async function({ api, event, Users, Threads }) {
   
   try {
     
-    const apiu = "https://raw.githubusercontent.com/MR-SAKIB-60/ImranBypass/refs/heads/main/imran.json";
+    const apiu = "https://raw.githubusercontent.com/MR-SAKIB-60/SAKIBBypass/refs/heads/main/SAKIB.json";
   const config = await axios.get(apiu);
   const res = config.data.wlc;
     const byeApiUrl = `${res}/api/bye?uid=${encodeURIComponent(userID)}&user_name=${encodeURIComponent(userName)}&owner_name=${encodeURIComponent("SAKIB AHMED")}&theme=dark`;

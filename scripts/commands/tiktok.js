@@ -5,7 +5,7 @@ module.exports.config = {
   name: "tiktok",
   version: "1.1.3",
   permission: 0,
-  credits: "Imran",
+  credits: "SAKIB",
   prefix: false,
   description: "এআই দিয়ে খুঁজে এনে টিকটক ভাইরাল ভিডিও পাঠায়",
   category: "Entertainment",

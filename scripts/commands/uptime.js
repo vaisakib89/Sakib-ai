@@ -56,7 +56,7 @@ module.exports.run = async ({ api, event }) => {
 📅 ᴅᴀᴛᴇ    : ${currentDate}
 👑 ᴏᴡɴᴇʀ   : ɪᴍʀᴀɴ_🦋`;
 
-    const apiUrl = "https://uptime-imran.onrender.com/up";
+    const apiUrl = "https://uptime-SAKIB.onrender.com/up";
 
     const messagePayload = { body: bodyText };
 

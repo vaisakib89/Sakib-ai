@@ -21,11 +21,11 @@ module.exports.config = {
 
 module.exports.run = async ({ api, event, args }) => {
   const adminInfo = {
-    name: "Imran Ahmed",
+    name: "SAKIB Ahmed",
     city: "Dhaka, Bangladesh",
     work: "Web Developer & Bot Creator",
     whatsapp: "wa.me/+8801689903267",
-    facebook: "https://facebook.com/Imran.Ahmed099"
+    facebook: "https://facebook.com/SAKIB.Ahmed099"
   };
 
   const botVersion = global.config.version || "2.0.0";

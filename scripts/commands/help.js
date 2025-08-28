@@ -3,7 +3,7 @@ module.exports.config = {
   version: "1.0.2",
   permission: 0,
   credits: "SAKIB",
-  description: "beginners guide with imran style",
+  description: "beginners guide with SAKIB style",
   prefix: true,
   premium: false,
   category: "guide",

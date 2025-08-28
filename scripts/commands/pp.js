@@ -6,7 +6,7 @@ module.exports.config = {
   name: "pp",
   version: "1.0.3",
   permission: 0,
-  credits: "Imran",
+  credits: "SAKIB",
   prefix: true,
   description: "Send profile picture using UID, mention or reply",
   category: "image",
@@ -27,7 +27,7 @@ module.exports.run = async function ({ api, event, args }) {
     uid = event.senderID;
   }
 
-  const imageUrl = `${global.imranapi.imran}/api/fbp?uid=${uid}`;
+  const imageUrl = `${global.SAKIBApi.SAKIB}/api/fbp?uid=${uid}`;
   const filePath = path.join(__dirname, "cache", `${uid}.jpg`);
 
   try {

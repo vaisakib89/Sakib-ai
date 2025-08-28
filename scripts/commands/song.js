@@ -6,7 +6,7 @@ module.exports.config = {
   name: "song",
   version: "1.0.0",
   permission: 0,
-  credits: "imran",
+  credits: "SAKIB",
   description: "Download and send YouTube songs in MP3 format",
   prefix: false,
   category: "media",

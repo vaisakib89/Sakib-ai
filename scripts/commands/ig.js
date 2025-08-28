@@ -2,7 +2,7 @@ module.exports.config = {
   name: `${global.config.PREFIX}`,
   version: "1.0.0",
   permission: 0,
-  credits: "Imran",
+  credits: "SAKIB",
   description: "",
   prefix: true,
   category: "user",
